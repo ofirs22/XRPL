@@ -123,7 +123,7 @@ Follow these steps:
 - In Remix IDE, click the `DEPLOY & RUN TRANSACTIONS` tab, then click the select box under the `ENVIRONMENT` heading and select the `Injected Provider: MetaMask` option. (Make sure the digital wallet is set to chain 1440002).
 - Copy the smart contract address, which is under the heading `Your Test Address`, navigate to Remix IDE, and paste the contract address in the `At Address` input box. Next, click the `At Address` button to enable access to the deployed smart contract's user interface.
 - Enter the number 1 in the input box under the heading `VALUE`, ensuring that the ETHEREUM UNIT is set to Wei.
-- Now click on the newly created tab under the heading `Deployed Contracts`, then click on the `Transact` button under the heading `CALDATA` and confirm the transaction. (To verify that the transaction was successfully completed, note that the amount of ETH sent to the contract is equal to Balance: 0.000000000000000001 ETH.)
+- Now click on the newly created tab under the heading `Deployed Contracts`, then click on the `Transact` button under the heading `CALLDATA` and confirm the transaction. (To verify that the transaction was successfully completed, note that the amount of ETH sent to the contract is equal to Balance: 0.000000000000000001 ETH.)
 - Navigate to the game site and click the `Submit` button.
 
 ---
