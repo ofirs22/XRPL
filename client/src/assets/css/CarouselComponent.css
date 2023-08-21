@@ -1,0 +1,22 @@
+.carousel-image {
+    display: flex;
+    height: 250px; /* set to fill carousel height */
+    width: 100%; /* set to fill carousel width */
+        cursor: pointer; /* change cursor to pointer on hover */
+
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+
+}
+
+.carousel-size {
+    width: 1185px;
+    height: 250px;
+    object-fit: contain; /* This will ensure that the image covers the carousel */
+
+}
