@@ -1,0 +1,17 @@
+
+.full-address {
+  display: none;
+}
+
+.short-address {
+  display: inline;
+}
+
+@media (min-width: 576px) {
+  .full-address {
+    display: inline;
+  }
+  .short-address {
+    display: none;
+  }
+}

@@ -1,0 +1,197 @@
+.card-custom {
+  width: 100%;
+  max-width: 300px;
+  border: 7px solid #000000; /* New border property */
+  border-radius: 8px;
+  box-shadow: 0 7px 17px rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: rgb(0, 0, 0);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+  box-shadow: 0 0 330px rgba(235, 109, 104, 0.8);  /* Larger, more noticeable shadow */
+}
+  
+  .card-image-custom {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content-custom {
+    padding: 16px;
+  }
+  
+  .card-title-custom {
+    margin-top: 10px;
+    text-align: center;
+    color: #31EA8A;
+
+  }
+  
+  .card-description-custom {
+    color: #ffffff;
+  }
+  
+  @media (min-width: 768px) {
+    .card-container-custom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+    }
+  
+    .card-custom {
+      width: 30%; /* straight 30% width */
+      margin: 2.66%; /* 1.66% margin around each card */
+      box-sizing: border-box;
+    }
+  }
+  @media (max-width: 576px) {
+    .card-custom {
+      margin: auto; /* This is for centering the card */
+      margin-bottom: 80px;
+    }
+  }
+  .card-custom {
+  width: 100%;
+  max-width: 300px;
+  border: 7px solid #000000; /* New border property */
+  border-radius: 8px;
+  box-shadow: 0 7px 17px rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: rgb(0, 0, 0);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+  box-shadow: 0 0 330px #31EA8A;  /* Larger, more noticeable shadow */
+}
+  
+  .card-image-custom {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-image-custom2 {
+    width: 100%;
+    height: 257px;  
+    object-fit: cover;
+}
+  
+  .card-content-custom {
+    padding: 16px;
+  }
+  
+  .card-title-custom {
+    margin-top: 10px;
+    text-align: center;
+    color: #31EA8A;
+
+  }
+
+  .card-description-custom {
+    color: #ffffff;
+  }
+  
+  @media (min-width: 768px) {
+    .card-container-custom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+    }
+  
+    .card-custom {
+      width: 30%; /* straight 30% width */
+      margin: 2.66%; /* 1.66% margin around each card */
+      box-sizing: border-box;
+    }
+  }
+  @media (max-width: 576px) {
+    .card-custom {
+      margin: auto; /* This is for centering the card */
+      margin-bottom: 80px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  .card-custom-hacking {
+    width: 100%;
+    max-width: 300px;
+    border: 7px solid #000000; /* New border property */
+    border-radius: 8px;
+    box-shadow: 0 7px 17px rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card-custom-hacking:hover {
+    box-shadow: 0 0 330px rgb(255, 8, 0);  /* Larger, more noticeable shadow */
+  }
+    
+    .card-image-custom-hacking {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .card-content-custom-hacking {
+      padding: 16px;
+    }
+    
+    .card-title-custom-hacking {
+      margin-top: 10px;
+      text-align: center;
+      color: #31EA8A;
+  
+    }
+    .card-title-type-hacking {
+      margin-top: 10px;
+      text-align: center;
+      color: #ff7373;
+  
+    }
+    
+    .card-description-custom-hacking {
+      color: #ffffff;
+    }
+    
+    @media (min-width: 768px) {
+      .card-container-custom-hacking {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+      }
+    
+      .card-custom-hacking {
+        width: 30%; /* straight 30% width */
+        margin: 2.66%; /* 1.66% margin around each card */
+        box-sizing: border-box;
+      }
+    }
+    @media (max-width: 576px) {
+      .card-custom-hacking {
+        margin: auto; /* This is for centering the card */
+        margin-bottom: 80px;
+      }
+    }
+    .card-container-custom {
+      /* ... existing styles ... */
+      margin-top: 60px; /* Adjust this value based on the height of your navbar */
+  }
+    

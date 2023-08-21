@@ -1,0 +1,25 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_target",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "attacker",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "ticketAmount",
+				"type": "uint256"
+			}
+		],
+		"name": "attack",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

@@ -1,0 +1,39 @@
+.container-colors {
+    color: white;
+
+  }
+  .about-container{
+    min-height: 100vh; /* This line ensures the container will always be at least as tall as the viewport. */
+
+  }
+  
+  .about-heading-row {
+    margin-bottom: 2rem;
+  }
+  
+  .about-heading {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  .about-content-row {
+    margin-bottom: 2rem;
+  }
+  
+  .about-card {
+    background-color: #000000;
+    border: none;
+  }
+  
+  .about-subheading {
+    font-size: 1.5em;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .about-text {
+    font-size: 1.1em;
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+  

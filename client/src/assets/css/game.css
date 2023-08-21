@@ -1,0 +1,355 @@
+/* Container */
+.container {
+  margin-top: 2rem;
+}
+
+/* Card */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(44, 51, 73, .1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* CardBody */
+.card-body {}
+
+/* CardTitle */
+.card-title {
+  text-align: center;
+  color: #6c757d;
+}
+
+/* Button */
+.button {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.button-copy {
+  position: 'absolute';
+  top: '0';
+  right: '0';
+  margin: '1em';
+  border: 'none';
+  background-color: '#f0f0f0';
+  color: '#555';
+  padding: '0.5em 1em';
+  font-size: '1rem';
+  font-weight: 'bold';
+}
+
+
+/* Paragraph */
+.paragraph {
+  margin-top: 1rem;
+}
+
+/* h3 */
+.h3 {
+  margin-top: 1rem;
+}
+
+.code-section {
+  position: relative;
+}
+
+.container-color {
+  background-image: linear-gradient(to right, #0F0F11, #0F0F11 80%);
+  color: white;
+}
+
+.container-padding-fix {
+  padding: 6rem 0;
+}
+
+.title-color {
+  color: #31EA8A;
+}
+
+.header-title-color {
+  color: linear-gradient(to right, #0F0F11, #0F0F11 80%);
+}
+
+.Instance-color {
+  color: #ffffff;
+}
+
+.big-font {
+  font-size: 19px !important;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.card-fixed {
+  height: 190px;
+  overflow-y: auto;
+}
+
+
+.game-container {
+  min-height: 200vh;
+}
+
+.header-component {
+  padding-bottom: 33rem !important;
+}
+
+.header-background {
+  background-image: url('../../../public/hero2.jpeg');
+  background-repeat: no-repeat;
+  background-size: auto 85%;
+  background-position: top center;
+}
+
+.type-animation-container {
+  font-size: 23px;
+  position: relative;
+  top: 120px;
+}
+
+
+.certificate-img {
+  width: 100% !important;
+  height: 600px !important;
+  object-fit: cover;
+}
+
+
+.button-position {
+  top: 170px !important;
+}
+
+.button-custom {
+  width: 100%;
+  max-width: 300px;
+  border: 7px solid #000000;
+  border-radius: 8px;
+  box-shadow: 0 7px 17px rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: rgb(0, 0, 0);
+  transition: box-shadow 0.3s ease;
+}
+
+.button-custom:hover {
+  box-shadow: 0 0 330px #31EA8A;
+}
+.button-position{
+  color:#31EA8A !important;
+  margin: 20px 0!important;
+  top: 505px !important;
+}
+
+.index-title{
+  color: #a3a4af;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em; /* Size on large screens */
+  position: relative; 
+  text-align: center;
+  top:40px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1450px) {
+  .index-title {
+    font-size: em; /* smallest font size for mobile phones */
+
+  }
+  .header-component {
+      padding-bottom: 27rem !important;
+  }
+  .header-background {
+      background-repeat: no-repeat;
+      top: 30px;
+      background-position: top center;
+  }
+  .button-position {
+    top: 270px !important;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  
+  .header-component {
+      padding-bottom: 12rem !important;
+  }
+  .card-fixed {
+      height: 190px;
+      top: 150px !important;
+  }
+  .button-fixed {
+      top: 200px !important;
+  }
+  .button-position {
+    top: 270px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .index-title {
+      font-size: 5em;
+  }
+  .header-background {
+      background-repeat: no-repeat;
+      background-size: auto 70% !important;
+      top: 50px !important;
+  }
+  .card-fixed {
+      height: 80px;
+      top: 150px !important;
+  }
+  .button-fixed {
+      top: 130px !important;
+      position: 'relative';
+  }
+  .button-position {
+    top: 170px !important;
+    max-width: 250px;
+
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .index-title {
+    font-size: 5em; /* smallest font size for mobile phones */
+
+  }
+  .page-title {
+      font-size: 5em;
+  }
+  .header-background {
+      background-size: auto 100%;
+      background-position: top center;
+  }
+  .card-fixed {
+      height: 130px;
+      top: 150px !important;
+  }
+  .button-fixed {
+      top: 130px !important;
+      position: 'relative';
+  }
+  .type-animation-container {
+      font-size: 20px;
+      position: relative;
+      top: 120px;
+  }
+  .animation-media {
+      height: 70px;
+  }
+  .button-position {
+    top: 170px !important;
+    max-width: 170px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .index-title {
+    font-size: 4em; /* smallest font size for mobile phones */
+
+  }
+  .page-title {
+      font-size: 4em;
+  }
+  .header-component {
+      padding-bottom: 7rem !important;
+  }
+  .header-background {
+      background-size: auto 100%;
+      top: 20px;
+  }
+  .card-fixed {
+      height: 80px;
+      top: 100px !important;
+  }
+  .button-fixed {
+      top: 130px !important;
+      position: 'relative';
+  }
+  .type-animation-container {
+      font-size: 16px;
+      top: 100px;
+      position: relative;
+  }
+  .animation-media {
+      height: 70px;
+  }
+  .achievement-title {
+      font-size: 14px;
+  }
+  .achievement-icon {
+      font-size: 10px;
+  }
+  .button-position {
+    top: 170px !important;
+    max-width: 130px;
+
+  }
+  .hide-on-small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .index-title {
+    font-size: 3em; /* smallest font size for mobile phones */
+
+  }
+  .page-title {
+      font-size: 3em;
+  }
+  .header-component {
+      padding-bottom: 6rem !important;
+  }
+  .header-background {
+      background-size: auto 60% !important;
+      top: 70px !important;
+  }
+  .card-fixed {
+      height: 65px;
+      top: 60px !important;
+  }
+  .button-fixed {
+      top: 100px !important;
+      position: 'relative';
+  }
+  .type-animation-container {
+      font-size: 16px;
+      top: 100px;
+      position: relative;
+  }
+  .animation-media {
+      height: 40px;
+  }
+  .button-position {
+    top: 110px !important;
+    max-width: 80px !important;
+    max-height: 48px;
+
+  }
+  .hide-on-small {
+    display: none;
+  }
+}

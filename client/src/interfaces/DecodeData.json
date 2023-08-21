@@ -1,0 +1,75 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_str",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_num",
+				"type": "uint256"
+			}
+		],
+		"name": "decode",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes",
+				"name": "encodedData",
+				"type": "bytes"
+			}
+		],
+		"name": "decodeStringAndUint",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "encodeStringAndUint",
+		"outputs": [
+			{
+				"internalType": "bytes",
+				"name": "",
+				"type": "bytes"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "player",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "_string",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_number",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
