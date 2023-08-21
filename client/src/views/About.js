@@ -50,7 +50,7 @@ const About = () => {
         </Row>
         <div className="video-container">
           <video controls>
-            <source src={process.env.PUBLIC_URL + "/xrpl-demo.mp4"} type="video/mp4" />
+            <source src={"https://objectstorage.il-jerusalem-1.oraclecloud.com/p/GuYmVeBi29MZeZHmX8maUuFzosEQ0eAJuxJ_zsU_Zc_upsde-QyV8IwGSQsHjB-Q/n/axiak399ab1d/b/xrpl/o/xrplxrpl-demo.mp4"} type="video/mp4" />
           </video>
         </div>
       </Container>
