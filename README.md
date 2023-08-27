@@ -200,10 +200,6 @@ web3.eth.getStorageAt("<contract-address>",0,console.log)
 ### Overflow Learning Lab:
 (type(uint256).max) = Max
 
-  (Max - 3)[------------------Max------0-------------------]3
-           |                   |       |                   |
-        counter     (counter + 3)     (counter + 4)     (counter + 7)   
-
 When the `counter` starts at `Max - 3`, the overflow logic is:
 
 1. When `3` uints are added to the counter, it reaches `Max`.
